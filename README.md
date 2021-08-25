@@ -16,3 +16,6 @@ Pix2Pix model is divided into two models
 This model implements a UNET network for image generation. The reason behind the choice of UNET network is its uncanny ability to change the style of the image without affecting the geometric features of the image due to its residual connection between the inner hidden convolutional layers. You can learn more about UNET neural network here (https://arxiv.org/abs/1505.04597)
 
 ![image](https://user-images.githubusercontent.com/47930821/130733364-eaa7dd39-56b6-4f73-85f5-1251f3905841.png)
+
+# discriminative network
+The discriminitive model implements patch GAN loss which basically judge the realisticity of each pixel on its own rather than the whole image. Patch GAN is used here for the sake of making the colors accross the image consistent because squeezing the information in the image into one output (either real or fake) will not be as useful in this problem. 
