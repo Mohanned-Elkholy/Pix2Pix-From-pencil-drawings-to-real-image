@@ -51,11 +51,18 @@ In this repo, a pretrained biggan in a specified library
 pip install torch torchvision matplotlib lpips numpy nltk cv2 pytorch-pretrained-biggan
 ```
 ---
+
 # Training
-#provide image to work on
+Run this script on a colab notebook to start the inversion. (GPU is require).
 ```python
-python train.py  --num_epochs 2000 --learning_rate 0.007 
+!pip install tensorflow_addons
+!pip install argparse
+!git clone https://github.com/Mohanned-Elkholy/Pix2Pix-From-pencil-drawings-to-real-image
+%cd /content/Pix2Pix-From-pencil-drawings-to-real-image
+!python main.py --epochs 200 --batchSize 128
 ```
+You can also run the colab notebook provided in the repo, or you can open this link: https://colab.research.google.com/drive/1wJrPeNv7sx8s0s5jCF9XNxW9TmAG6QOO?usp=sharing.
+
 ---
 
 # Results
