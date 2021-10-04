@@ -57,3 +57,8 @@ pip install torch torchvision matplotlib lpips numpy nltk cv2 pytorch-pretrained
 python train.py  --num_epochs 2000 --learning_rate 0.007 
 ```
 ---
+
+# Results
+
+![image](https://user-images.githubusercontent.com/47930821/135886863-9b66f3a8-b2ee-4074-95cc-a09b3e7610f1.png)
+
