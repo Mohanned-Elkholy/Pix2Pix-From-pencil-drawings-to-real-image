@@ -44,16 +44,11 @@ You can learn more about the bitwise filter here (https://docs.opencv.org/4.5.2/
 
 2- CPU or NVIDIA GPU (GPU is recommended for faster inversion)
 
----
-# Install dependencies
-In this repo, a pretrained biggan in a specified library
-```python
-pip install torch torchvision matplotlib lpips numpy nltk cv2 pytorch-pretrained-biggan
-```
+
 ---
 
 # Training
-Run this script on a colab notebook to start the inversion. (GPU is require).
+Run this script on a colab notebook to start the inversion. (GPU is required).
 ```python
 !pip install tensorflow_addons
 !pip install argparse
